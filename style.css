@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1{
+    color: #f8f8f8;
+    margin-top: 20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(119, 136, 146);
+}
+
+main{
+    width: 100%;
+    max-width: 900px;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: dimgray;
+}
+
+input{
+width: 50%;
+height: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+padding: 12px;
+border: none;
+color: #f8f8f8;
+background-color: rgb(160, 149, 148);
+
+}
+
+
+.contaner{
+    background-color: rgba(255, 255, 255, 0.801);
+    width: 100%;
+    min-height: 100svh;
+    display: flex;
+
+}
+h2{
+    padding: 6px;
+    margin-top: 6px;
+    text-align: center;
+}
+
+.under-progress{
+    width: 50%;
+    height: fit-content;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid ;
+
+}
+
+.done{
+    width: 50%;
+    height: fit-content;
+    background-color: rgb(103, 168, 95);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid ;
+}
+    
+    
+.list{
+    border: 2px solid ;
+    padding: 12px;
+    margin: 12px 4px;
+
+}
+
+.end{
+    border: 2px solid ;
+    padding: 12px;
+    margin: 12px 4px;
+
+}
