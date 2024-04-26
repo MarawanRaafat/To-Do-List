@@ -1,100 +1,101 @@
-*{
+* {
     margin: 0;
-    padding:0;
-    box-sizing:border-box;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
-    color: #f8f8f8;
+
+h1 {
+    background: linear-gradient(90deg, rgb(103, 168, 95), darkgray);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 20px;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     background-color: rgb(119, 136, 146);
 }
 
-main{
+main {
     width: 100%;
     max-width: 900px;
-display:flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: dimgray;
 }
-form{
+
+form {
     width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-input{
-width: 50%;
-height: 30px;
-margin-top: 30px;
-margin-bottom: 30px;
-padding: 12px;
-background-color: rgb(160, 149, 148);
-border: none;
-color: #f8f8f8;
-
-
+input {
+    width: 50%;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px;
+    background-color: rgb(160, 149, 148);
+    border-radius: 6px;
+    border: none;
+    color: #f8f8f8;
 }
 
-button{
+button {
     width: 25%;
-   padding: 6px;
-   margin: 8px;
-   background-color: rgb(160, 149, 148);
-
+    padding: 6px;
+    margin: 8px;
+    background-color: rgb(160, 149, 148);
+    border-radius: 6px;
 }
 
 
-.contaner{
+.contaner {
     background-color: rgba(255, 255, 255, 0.801);
     width: 100%;
     min-height: 100svh;
     display: flex;
-
 }
-h2{
+
+h2 {
     padding: 6px;
     margin-top: 6px;
     text-align: center;
 }
 
-.under-progress{
+.under-progress {
     width: 50%;
+    border: 2px solid;
     height: fit-content;
     background-color: darkgray;
     display: flex;
     flex-direction: column;
-    border: 1px solid ;
-
 }
 
-.done{
+.done {
     width: 50%;
-    height: fit-content;
     background-color: rgb(103, 168, 95);
+    border: 2px solid;
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    border: 1px solid ;
-}
-    
-    
-.list{
-    border: 2px solid ;
-    padding: 12px;
-    margin: 12px 4px;
-
 }
 
-.end{
-    border: 2px solid ;
+.list {
     padding: 12px;
     margin: 12px 4px;
+    border: 2px solid;
+}
 
+.end {
+    padding: 12px;
+    margin: 12px 4px;
+    border: 2px solid;
 }
