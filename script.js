@@ -10,16 +10,16 @@ addTask.addEventListener("submit" , function(event) {
     tasks.innerHTML += ` <span class="list">${taskeValue}</span>`;
 })
 
-tasks.addEventListener("click" , function () {
-    const sameValue = document.querySelectorAll("tasks").value;
+tasks.addEventListener("click" , function (event) {
+    const sameValue = event.target.textContent;
     fineshed.innerHTML += `<span class="end">${sameValue}</span>`;
-    tasks.remove;
+    event.target.remove();
 })
 
 fineshed.addEventListener("click",function(){
-    const sameValue = document.querySelectorAll("fineshed").value;
+    const sameValue = event.target.textContent;
     tasks.innerHTML += ` <span class="list">${sameValue}</span>`;
-    fineshed.remove
+    event.target.remove();
 })
 
 
